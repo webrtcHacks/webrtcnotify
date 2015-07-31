@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "js": [ "snoop.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_start"
+   } ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "icon_48.png",
+    "default_title": "This site uses WebRTC."
+  },
+   "manifest_version": 2,
+   "name": "WebRTC Notifier",
+   "version": "0.0.1"
+}
