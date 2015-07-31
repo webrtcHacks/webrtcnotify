@@ -6,6 +6,7 @@ It does not work for sandboxed iframes [as described here](https://github.com/di
 
 ## Credits
 The WebRTCBlock 1.0 extension showed how to inject Javascript.
+Logo taken from the [WebRTC.org G+ page](https://plus.google.com/+WebRTCorg/posts).
 
 ## License
 MIT

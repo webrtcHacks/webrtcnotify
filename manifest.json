@@ -11,10 +11,13 @@
     "persistent": false
   },
   "page_action": {
-    "default_icon": "icon_48.png",
+    "default_icon": "icon.png",
     "default_title": "This site uses WebRTC."
   },
-   "manifest_version": 2,
-   "name": "WebRTC Notifier",
-   "version": "0.0.1"
+  "manifest_version": 2,
+  "name": "WebRTC Notifier",
+  "version": "0.0.1",
+  "icons": {
+    "128": "logo.png"
+  }
 }
