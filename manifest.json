@@ -12,7 +12,7 @@
   },
   "page_action": {
     "default_icon": "icon.png",
-    "default_title": "This site uses WebRTC."
+    "default_title": "Does this site use WebRTC?"
   },
   "manifest_version": 2,
   "name": "WebRTC Notifier",
